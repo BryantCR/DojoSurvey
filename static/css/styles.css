@@ -1,0 +1,17 @@
+.holdBodyForm{
+    border: 3px solid blue;
+    padding: 20%;
+}
+.holdInputsLabels{
+    border: 3px solid red;
+    padding: 20%;
+    display: flex;
+}
+.labelInput{
+    display: flex;
+    flex-direction: row;
+}
+.labelTextarea{
+    display: flex;
+    flex-direction: column;
+}
