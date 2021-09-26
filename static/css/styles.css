@@ -1,17 +1,58 @@
-.holdBodyForm{
-    border: 3px solid blue;
-    padding: 20%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .holdInputsLabels{
-    border: 3px solid red;
-    padding: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    border: 3px solid black;
+    padding: 2%;
+    height: 200%;
+    width: 50%;
     display: flex;
+    flex-direction: column;
 }
 .labelInput{
     display: flex;
     flex-direction: row;
+    margin-bottom: 1%;
+    justify-content: space-between;
+}
+.labelText{
+    font-weight: bold;
+    margin-bottom: 1%;
 }
 .labelTextarea{
     display: flex;
     flex-direction: column;
+}
+#commentForm{
+    border: 3px solid black;
+}
+.selectOption{
+    width: 70%;
+}
+.nameInput{
+    width: 70%;
+}
+.holdBodyForm{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.justSubmitButton{
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+#buttonSubmitForm{
+    background-color: royalblue;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
 }
