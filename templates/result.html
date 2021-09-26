@@ -10,11 +10,14 @@
     <body>
         <main class="holdBodyForm">
             <form class="holdInputsLabels" action="/" method="POST" autocomplete="off">
-                <h1 class="resultTittle">Survey Results</h1>
+                <h1 class="resultTittle">Submited Info</h1>
                 <p class="resultName">Name: {{session['userNameForm']}}</p>
                 <p class="resultlocation">Dojo Location: {{session['locationsForm']}}</p>
                 <p class="resultLanguage">Favorite Language: {{session['languagesForm']}}</p>
                 <p class="resultComments">Comments: {{session['commentFormForm']}}</p>
+                <div class="justSubmitButton">
+                    <input type="submit" value="Go back" name="buttonSubmitForm" id="buttonSubmitForm">
+                </div>
             </form>
         </main>
     </body>

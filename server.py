@@ -21,6 +21,7 @@ def validateFormInfo():
 @app.route("/result", methods = ['GET'])
 def userAnswer():
     return render_template('result.html')
+    return redirect('/')
 
 
 if __name__ == "__main__":
